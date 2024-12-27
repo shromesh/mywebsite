@@ -1,0 +1,45 @@
+.icon-list {
+    list-style: none;
+    padding: 0;
+    display: flex;
+    justify-content: center;
+    gap: 15px;
+}
+
+.icon-list li a {
+    display: inline-block;
+    color: #000;
+    /* 黒色 */
+    transition: color 0.3s, transform 0.3s;
+}
+
+.icon-list li a:hover {
+    color: #555;
+    /* ホバー時のダークグレー */
+    transform: scale(1.1);
+}
+
+body {
+    font-family: 'Noto Sans JP', sans-serif;
+}
+
+.myname {
+    font-family: 'Noto Sans JP', sans-serif;
+    font-weight: 700;
+    font-size: 3rem;
+    /* 日本語の大きさはそのまま */
+    text-align: center;
+    color: #000;
+    margin-bottom: 10px;
+}
+
+.english-name {
+    font-family: 'Poppins', sans-serif;
+    font-weight: 800;
+    /* 太さは維持 */
+    font-size: 2rem;
+    /* サイズを控えめに調整 */
+    text-align: center;
+    color: #000;
+    /* 同じ黒色に統一 */
+}
